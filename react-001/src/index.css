@@ -1,0 +1,27 @@
+html {
+  min-width: 320px;
+  background: #edf1f5;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 15px;
+}
+
+#root {
+  width: 100%;
+}
+
+@media print {
+  body {
+    background: white;
+    padding: 0;
+  }
+
+  .cv {
+    margin: 0 auto;
+    box-shadow: none;
+  }
+}
